@@ -663,8 +663,8 @@ transition: color 0.3s;
 }
 .block--domain__prices{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 6rem 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem 6rem 6rem;
     font-size: 2rem;
     font-weight: 600;
     justify-items: center;
