@@ -682,7 +682,7 @@ transition: color 0.3s;
    gap: 8rem 4rem; 
 }
 .block-plans .card{
-    max-width: 800px;
+    max-width: 330px;
     margin: 0 0;
 }
 /* features */
@@ -799,3 +799,5 @@ transition: color 0.3s;
         font-size: 1.6rem;
      }
 }
+
+
