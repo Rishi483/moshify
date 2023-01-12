@@ -19,7 +19,7 @@
     <!-- navigation bar -->
    <header>
     <nav class="nav collapsible">
-        <a class="nav__brand" href="#">
+        <a class="nav__brand" href="/">
             <img src="images/logo.svg" alt="logo">
         </a>
         <svg class="icon icon--white nav__toggler">
@@ -219,58 +219,60 @@
 
 <!--Showcase-->
 <section class="block block--dark block--skewed-right block-showcase">
-    <header class="block__header">
-        <h2>User-friendly Control Panel</h2>
-    </header>
-
-<div class="grid grid--1x2" >
-    <picture class="block-showcase__image" data-aos="fade-up-right">
-        <source type="image/webp" srcset="images/ipad.webp 1x,images/ipad@2x.webp 2x">
-        <source type="image/png" srcset="images/ipad.png 1x,images/ipad@2x.png 2x">
-        <img  src="images/ipad.png" alt="">
-    </picture>
-   <ul class="list" data-aos="fade-up-left">
-    <li>
-        <div class="media">
-            <div class="media__image">
-                <svg class="icon icon--primary">
-                    <use   href="images/sprite.svg#snap"></use>
-                   </svg>
+    <div class="container">
+        <header class="block__header">
+            <h2>User-friendly Control Panel</h2>
+        </header>
+        
+        <div class="grid grid--1x2" >
+        <picture class="block-showcase__image" data-aos="fade-up-right">
+            <source type="image/webp" srcset="images/ipad.webp 1x,images/ipad@2x.webp 2x">
+            <source type="image/png" srcset="images/ipad.png 1x,images/ipad@2x.png 2x">
+            <img  src="images/ipad.png" alt="">
+        </picture>
+           <ul class="list" data-aos="fade-up-left">
+        <li>
+            <div class="media">
+                <div class="media__image">
+                    <svg class="icon icon--primary">
+                        <use   href="images/sprite.svg#snap"></use>
+                       </svg>
+                </div>
+                <div class="media__body">
+                    <h3 class="media__title">Easy Start & Managed Updates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
+                </div>
             </div>
-            <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
+        </li>
+        <li>
+            <div class="media">
+                <div class="media__image">
+                    <svg class="icon icon--primary">
+                        <use   href="images/sprite.svg#growth"></use>
+                    </svg>
+                </div>
+                <div class="media__body">
+                    <h3 class="media__title">Staging, GIT & WP-CLI</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
+                </div>
             </div>
+        </li>
+        <li>
+            <div class="media">
+                <div class="media__image">
+                    <svg class="icon icon--primary">
+                        <use   href="images/sprite.svg#wordpress"></use>
+                       </svg>
+                </div>
+                <div class="media__body">
+                    <h3 class="media__title">Dynamic Caching & More</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
+                </div>
+            </div>
+        </li>
+           </ul>
         </div>
-    </li>
-    <li>
-        <div class="media">
-            <div class="media__image">
-                <svg class="icon icon--primary">
-                    <use   href="images/sprite.svg#growth"></use>
-                   </svg>
-            </div>
-            <div class="media__body">
-                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="media">
-            <div class="media__image">
-                <svg class="icon icon--primary">
-                    <use   href="images/sprite.svg#wordpress"></use>
-                   </svg>
-            </div>
-            <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis sunt laboriosam totam nostrum id est iste obcaecati eaque soluta.</p>
-            </div>
-        </div>
-    </li>
-   </ul>
-</div>
+    </div>
 </section>
 <!-- Testimonials Block -->
 <section class="block testimonial-block" data-aos="zoom-in">
@@ -399,6 +401,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
+    </script>   
 </body>
 </html>
